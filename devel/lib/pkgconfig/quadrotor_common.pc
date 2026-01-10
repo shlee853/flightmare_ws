@@ -1,0 +1,8 @@
+prefix=/root/workspace/catkin_ws/flightmare_ws/devel
+
+Name: quadrotor_common
+Description: Description of quadrotor_common
+Version: 0.0.0
+Cflags: -I/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_common/quadrotor_common/include
+Libs: -L${prefix}/lib -lquadrotor_common
+Requires: eigen_catkin geometry_msgs nav_msgs quadrotor_msgs roscpp

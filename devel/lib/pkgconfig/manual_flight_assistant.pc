@@ -1,0 +1,8 @@
+prefix=/root/workspace/catkin_ws/flightmare_ws/devel
+
+Name: manual_flight_assistant
+Description: Description of manual_flight_assistant
+Version: 0.0.0
+Cflags: -I/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/utils/manual_flight_assistant/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs quadrotor_common roscpp sbus_bridge sensor_msgs std_msgs

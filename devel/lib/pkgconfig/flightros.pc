@@ -1,0 +1,8 @@
+prefix=/root/workspace/catkin_ws/flightmare_ws/devel
+
+Name: flightros
+Description: Description of flightros
+Version: 0.0.1
+Cflags: -I/root/workspace/catkin_ws/flightmare_ws/src/flightmare/flightros/include
+Libs: -L${prefix}/lib -lflight_pilot
+Requires: flightlib roscpp autopilot quadrotor_common nav_msgs eigen_catkin quadrotor_msgs polynomial_trajectories std_msgs geometry_msgs tf tf_conversions eigen_conversions image_transport cv_bridge mav_msgs

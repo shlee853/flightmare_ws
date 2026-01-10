@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_single_board_io/include/rpg_single_board_io/adc.h
+stdint.h
+-
+string
+-
+
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_single_board_io/include/rpg_single_board_io/gpio.h
+
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_single_board_io/src/adc.cpp
+rpg_single_board_io/adc.h
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_single_board_io/src/rpg_single_board_io/adc.h
+fcntl.h
+-
+stdio.h
+-
+unistd.h
+-
+
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_single_board_io/src/gpio.cpp
+rpg_single_board_io/gpio.h
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_single_board_io/src/rpg_single_board_io/gpio.h
+errno.h
+-
+fcntl.h
+-
+stdio.h
+-
+stdlib.h
+-
+string
+-
+unistd.h
+-
+

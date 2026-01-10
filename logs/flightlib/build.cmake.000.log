@@ -1,0 +1,123 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 7.5.0
+[36m--[0m The CXX compiler identification is GNU 7.5.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m ======================  !Flightmare!  ======================
+[36m--[0m ======> Setup Dependencies
+[36m--[0m Using system provided Eigen.
+/usr/include/eigen3
+[36m--[0m Eigen3 include dir: /usr/include/eigen3
+[36m--[0m Getting Pybind11...
+Cloning into 'pybind11-src'...
+Note: checking out 'v2.6.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at f1abf5d9 docs: changelog update (#2652)
+[36m--[0m Pybind11 downloaded!
+[36m--[0m pybind11 v2.6.1
+[36m--[0m Found PythonInterp: /usr/bin/python3.6 (found version "3.6.9")
+[36m--[0m Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[36m--[0m Performing Test HAS_FLTO
+[36m--[0m Performing Test HAS_FLTO - Success
+[36m--[0m Getting yaml-cpp...
+[36m--[0m Yaml downloaded!
+[36m--[0m Found OpenCV: /usr (found version "3.2.0")
+[36m--[0m Found OpenMP_C: -fopenmp (found version "4.5")
+[36m--[0m Found OpenMP_CXX: -fopenmp (found version "4.5")
+[36m--[0m Found OpenMP: TRUE (found version "4.5")
+[36m--[0m ======> Setup Compilation
+[36m--[0m Enabling fast optimization flags!
+[36m--[0m The activated CXX RELEASE configuration is:
+  -fPIC -Wall -DNDEBUG  -fopenmp  -Ofast  -march=native
+[36m--[0m The activated CXX DEBUG configuration is:
+  -fPIC -Wall -g -fopenmp
+[36m--[0m ======>  Setup Build
+[36m--[0m ======>  Building with -- catkin --
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /root/workspace/catkin_ws/flightmare_ws/devel
+[36m--[0m Using CMAKE_PREFIX_PATH: /root/workspace/catkin_ws/flightmare_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /root/workspace/catkin_ws/flightmare_ws/devel;/opt/ros/melodic
+[36m--[0m Found PythonInterp: /usr/bin/python3.6 (found suitable version "3.6.9", minimum required is "3.6.9")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3.6
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /root/workspace/catkin_ws/flightmare_ws/build/flightlib/test_results
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+CMake Warning (dev) at /usr/src/googletest/CMakeLists.txt:3 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/src/googletest/googlemock/CMakeLists.txt:40 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/src/googletest/googletest/CMakeLists.txt:47 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Found PythonInterp: /usr/bin/python3.6 (found version "3.6.9")
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - not found
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests
+[36m--[0m catkin 0.7.29
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Marking SHARED_LIBRARY "flightlib" of package "flightlib" for installation
+[36m--[0m Marking HEADER FILES in "include" folder of package "flightlib" for installation
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /root/workspace/catkin_ws/flightmare_ws/build/flightlib

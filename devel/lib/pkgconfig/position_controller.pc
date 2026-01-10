@@ -1,0 +1,8 @@
+prefix=/root/workspace/catkin_ws/flightmare_ws/devel
+
+Name: position_controller
+Description: Description of position_controller
+Version: 0.0.0
+Cflags: -I/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/position_controller/include
+Libs: -L${prefix}/lib -lposition_controller
+Requires: eigen_catkin quadrotor_common roscpp
