@@ -1,0 +1,86 @@
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/externals/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp:[m[K In copy constructor ‘[01m[KSolutionAnalysis::SolutionAnalysis(const SolutionAnalysis&)[m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/externals/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp:46:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krhs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ SolutionAnalysis::SolutionAnalysis( const SolutionAnalysis& [01;35m[Krhs[m[K )
+                                                             [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp: In instantiation of ‘[01m[Kvoid rpg_mpc::MpcController<T>::offCallback(const ConstPtr&) [with T = float; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp:310:7:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp:76:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp: In instantiation of ‘[01m[Kbool rpg_mpc::MpcController<T>::publishPrediction(Eigen::Ref<const Eigen::Matrix<T, 10, 21> >, Eigen::Ref<const Eigen::Matrix<T, 4, 20> >, ros::Time&) [with T = float; typename Eigen::internal::conditional<const Eigen::Matrix<T, 10, 21>::IsVectorAtCompileTime, Eigen::InnerStride<1>, Eigen::OuterStride<> >::type = Eigen::OuterStride<>; typename Eigen::internal::conditional<const Eigen::Matrix<T, 4, 20>::IsVectorAtCompileTime, Eigen::InnerStride<1>, Eigen::OuterStride<> >::type = Eigen::OuterStride<>][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp:310:7:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp:259:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinputs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const Eigen::Ref<const Eigen::Matrix<T, kInputSize, kSamples>> [01;35m[Kinputs[m[K,
+                                                                    [01;35m[K^~~~~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp: In instantiation of ‘[01m[Kvoid rpg_mpc::MpcController<T>::offCallback(const ConstPtr&) [with T = double; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp:313:7:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp:76:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp: In instantiation of ‘[01m[Kbool rpg_mpc::MpcController<T>::publishPrediction(Eigen::Ref<const Eigen::Matrix<T, 10, 21> >, Eigen::Ref<const Eigen::Matrix<T, 4, 20> >, ros::Time&) [with T = double; typename Eigen::internal::conditional<const Eigen::Matrix<T, 10, 21>::IsVectorAtCompileTime, Eigen::InnerStride<1>, Eigen::OuterStride<> >::type = Eigen::OuterStride<>; typename Eigen::internal::conditional<const Eigen::Matrix<T, 4, 20>::IsVectorAtCompileTime, Eigen::InnerStride<1>, Eigen::OuterStride<> >::type = Eigen::OuterStride<>][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp:313:7:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/mpc_controller.cpp:259:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinputs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const Eigen::Ref<const Eigen::Matrix<T, kInputSize, kSamples>> [01;35m[Kinputs[m[K,
+                                                                    [01;35m[K^~~~~~[m[K
+In file included from [01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/autopilot.h:230:0[m[K,
+                 from [01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/autopilot_mpc_instance.cpp:28[m[K:
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::startCallback(const ConstPtr&) [with Tcontroller = position_controller::PositionController; Tparams = position_controller::PositionControllerParams; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:1387:16:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:674:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::forceHoverCallback(const ConstPtr&) [with Tcontroller = position_controller::PositionController; Tparams = position_controller::PositionControllerParams; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:1387:16:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:718:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::landCallback(const ConstPtr&) [with Tcontroller = position_controller::PositionController; Tparams = position_controller::PositionControllerParams; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:1387:16:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:742:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::offCallback(const ConstPtr&) [with Tcontroller = position_controller::PositionController; Tparams = position_controller::PositionControllerParams; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:1387:16:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:764:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::startCallback(const ConstPtr&) [with Tcontroller = rpg_mpc::MpcController<float>; Tparams = rpg_mpc::MpcParams<float>; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/autopilot_mpc_instance.cpp:30:27:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:674:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::forceHoverCallback(const ConstPtr&) [with Tcontroller = rpg_mpc::MpcController<float>; Tparams = rpg_mpc::MpcParams<float>; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/autopilot_mpc_instance.cpp:30:27:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:718:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::landCallback(const ConstPtr&) [with Tcontroller = rpg_mpc::MpcController<float>; Tparams = rpg_mpc::MpcParams<float>; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/autopilot_mpc_instance.cpp:30:27:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:742:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::offCallback(const ConstPtr&) [with Tcontroller = rpg_mpc::MpcController<float>; Tparams = rpg_mpc::MpcParams<float>; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/autopilot_mpc_instance.cpp:30:27:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:764:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::startCallback(const ConstPtr&) [with Tcontroller = rpg_mpc::MpcController<double>; Tparams = rpg_mpc::MpcParams<double>; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/autopilot_mpc_instance.cpp:32:27:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:674:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::forceHoverCallback(const ConstPtr&) [with Tcontroller = rpg_mpc::MpcController<double>; Tparams = rpg_mpc::MpcParams<double>; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/autopilot_mpc_instance.cpp:32:27:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:718:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::landCallback(const ConstPtr&) [with Tcontroller = rpg_mpc::MpcController<double>; Tparams = rpg_mpc::MpcParams<double>; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/autopilot_mpc_instance.cpp:32:27:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:742:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K
+/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h: In instantiation of ‘[01m[Kvoid autopilot::AutoPilot<Tcontroller, Tparams>::offCallback(const ConstPtr&) [with Tcontroller = rpg_mpc::MpcController<double>; Tparams = rpg_mpc::MpcParams<double>; std_msgs::Empty_<std::allocator<void> >::ConstPtr = boost::shared_ptr<const std_msgs::Empty_<std::allocator<void> > >][m[K’:
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_mpc/src/autopilot_mpc_instance.cpp:32:27:[m[K   required from here
+[01m[K/root/workspace/catkin_ws/flightmare_ws/src/rpg_quadrotor_control/control/autopilot/include/autopilot/./autopilot_inl.h:764:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     const std_msgs::Empty::ConstPtr& [01;35m[Kmsg[m[K) {
+                                      [01;35m[K^~~[m[K

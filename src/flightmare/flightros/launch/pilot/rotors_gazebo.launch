@@ -69,7 +69,8 @@
     </node>
 
     <!-- Autopilot -->
-    <node pkg="autopilot" type="autopilot" name="autopilot" output="screen">
+    <!--node pkg="autopilot" type="autopilot" name="autopilot" output="screen"-->
+    <node pkg="autopilot" type="autopilot" name="autopilot" output="screen" unless="$(arg use_mpc)">
       <rosparam file="$(find state_predictor)/parameters/hummingbird.yaml" />
       <rosparam file="$(find rpg_rotors_interface)/parameters/position_controller.yaml" />
       <rosparam file="$(find rpg_rotors_interface)/parameters/autopilot.yaml" />

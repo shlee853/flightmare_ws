@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD='/root/workspace/catkin_ws/flightmare_ws/build/quadrotor_common'
-export PYTHONPATH="/root/workspace/catkin_ws/flightmare_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"

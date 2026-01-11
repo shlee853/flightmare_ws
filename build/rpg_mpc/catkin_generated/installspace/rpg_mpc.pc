@@ -1,0 +1,8 @@
+prefix=/root/workspace/catkin_ws/flightmare_ws/install
+
+Name: rpg_mpc
+Description: Description of rpg_mpc
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmpc_solver -lmpc_wrapper -lmpc_controller
+Requires: autopilot geometry_msgs quadrotor_common roscpp std_msgs trajectory_msgs
